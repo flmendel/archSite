@@ -1,0 +1,22 @@
+{
+  "name": "archsite",
+  "version": "1.0.0",
+  "description": "Portfolio da Juliana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flmendel/archSite.git"
+  },
+  "author": "Fernando Mendel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flmendel/archSite/issues"
+  },
+  "homepage": "https://github.com/flmendel/archSite#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
