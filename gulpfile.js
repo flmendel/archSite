@@ -19,11 +19,12 @@ gulp.task('sass', function() {
     }))
 });
 
-gulp.task('browserSync', function(){
-	browserSync.init({
-		server: { baseDir: 'app'}
-	})
-
+gulp.task('browserSync', function() {
+  browserSync.init({
+    server: {
+      baseDir: 'app'
+    },
+  })
 });
 
 gulp.task('watch', ['browserSync', 'sass'], function (){
